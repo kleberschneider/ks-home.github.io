@@ -126,6 +126,12 @@
 		margin-bottom: 30px;
 	}
 
+	img {
+	  width: auto
+	  max-width: 100% ;
+	  height: auto ;
+	}
+
 	.timelineblock {
 		width: 100%;
 		background-image: url(../images/mobiletimeline.jpg);
@@ -230,6 +236,9 @@
 	.centerimage {
 		display: block;
 		margin: 10px auto;
+		width: auto ;
+		max-width: 85% ;
+		height: auto ;
 		border-radius: 50%;
 		box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.18), 0 0px 12px 0 rgba(0, 0, 0, 0.15);
 
